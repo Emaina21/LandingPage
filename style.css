@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+nav {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+.contents {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+.random-information {
+    display: flex;
+    flex-direction: column;
+    
+}
+.inspiration-quote {
+    display:flex;
+       
+}
+.call-to-action {
+    display: flex;
+}
+footer {
+    height: 75px;
+}
