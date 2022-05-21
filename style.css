@@ -14,7 +14,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    background: darkblue;
+    background: rgb(2, 2, 55);
     color: aliceblue;
     flex-shrink: 1;
     padding: 0mm 40mm;
@@ -37,24 +37,79 @@ a {
 .container {
 display: flex;
 margin: 0px;
-border: 5px solid blueviolet;
 box-sizing: border-box;
 flex: 1;
+flex-direction: column;
 }
 
 .container > * {
     display: flex;
-    border: 5px solid yellow;
     flex: 1;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
+    justify-content: space-between;
+    flex-shrink: 1;
+         
 }
+
 
 .box-1 {
-    background: darkblue;
-    display: flex;
+    background: rgb(2, 2, 55);
+         
 }
 
+.box-2 , .box-4 {
+    background: white ;
+}
+
+.box-2 {
+    flex-direction: column;
+  
+}
+
+.box-3 {
+    background: lightgrey;
+}
+.box-1-text {
+    display: flex;
+    color: aliceblue;
+    flex: 1;
+    flex-direction: column;
+    padding:15mm 40mm;
+}
+img {
+    width: 100px;
+    max-width: 100%;
+    background: grey;
+    height: 100px;
+    border: solid blue 1mm;
+    
+}
+.box-1-image {
+    display: flex;
+    flex: 1;
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    padding:15mm 40mm;
+}
+button {
+    margin-top: 2mm;
+    background: rgb(5, 161, 251);
+}
+
+.random-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10mm;
+}
+
+figure {
+    display: table;
+    width: 1px;
+    
+}
 
 
 
@@ -62,6 +117,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: darkblue;
+    background: rgb(2, 2, 55);
     color: aliceblue;
+    padding: 5px;
 }
