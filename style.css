@@ -105,8 +105,12 @@ flex-direction: column;
 
 button {
     margin-top: 2mm;
-    background: rgb(5, 161, 251);
+    background: rgb(35, 109, 236);
+    border-radius: 2mm;
+    color: aliceblue;
+    padding: 1mm 5mm;
 }
+
 .random-information {
     display:flex;
     justify-content: center;
@@ -142,12 +146,34 @@ figure {
 
 }
 
+.box-4 {
+    display:flex;
+    
+}
+
+.box-4-container {
+    display: flex;
+    width: 100%;
+    padding:10mm 40mm; 
+    background: rgb(35, 109, 236);
+    
+}
+
+.box-4-cta, .box-4-button {
+    display: flex;
+    flex: 1;
+    
+}
+
+.box-4-button {
+    display: flex;
+    justify-content: center;
+}
 
 
 footer {
     display: flex;
     justify-content: center;
-    align-items: center;
     background: rgb(2, 2, 55);
     color: aliceblue;
     padding: 5px;
