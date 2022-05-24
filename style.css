@@ -155,6 +155,7 @@ figure {
     display: flex;
     width: 100%;
     padding:10mm 40mm; 
+    border-radius: 1mm;
     background: rgb(35, 109, 236);
     
 }
@@ -184,3 +185,4 @@ figure {
 .footer >p {
     color: aliceblue;
 }
+
