@@ -62,8 +62,7 @@ flex-direction: column;
 .box-1 > * {
     display: flex;
     flex: 1;
-    color: aliceblue;
-    
+    color: aliceblue; 
 }
 
 
